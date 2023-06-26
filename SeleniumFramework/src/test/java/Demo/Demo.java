@@ -21,7 +21,7 @@ public class Demo {
 		//WebDriverManager.chromedriver().setup();
 		System.out.println("Title of the web page is"+driver.getTitle());
 		System.out.println("Title of the web page is"+driver.getCurrentUrl());
-		//System.out.println(driver.getPageSource());
+		System.out.println(driver.getPageSource());
 	}
 
 }
