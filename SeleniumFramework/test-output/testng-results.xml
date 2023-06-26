@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-25T19:23:01 IST" name="Suite" finished-at="2022-09-25T19:24:13 IST" duration-ms="72345">
+    <groups>
+    </groups>
+    <test started-at="2022-09-25T19:23:01 IST" name="Test" finished-at="2022-09-25T19:24:13 IST" duration-ms="72345">
+      <class name="Selenuim_Assignment.LoginSetup">
+        <test-method signature="browser()[pri:1, instance:Selenuim_Assignment.LoginSetup@32ee6fee]" started-at="2022-09-25T19:23:01 IST" name="browser" finished-at="2022-09-25T19:24:06 IST" duration-ms="65220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="opening_amazon()[pri:2, instance:Selenuim_Assignment.LoginSetup@32ee6fee]" started-at="2022-09-25T19:24:06 IST" name="opening_amazon" finished-at="2022-09-25T19:24:09 IST" duration-ms="2542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opening_amazon -->
+        <test-method signature="scoll_till_brands()[pri:3, instance:Selenuim_Assignment.LoginSetup@32ee6fee]" started-at="2022-09-25T19:24:09 IST" name="scoll_till_brands" finished-at="2022-09-25T19:24:10 IST" duration-ms="1527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scoll_till_brands -->
+        <test-method signature="click_on_television()[pri:4, instance:Selenuim_Assignment.LoginSetup@32ee6fee]" started-at="2022-09-25T19:24:10 IST" name="click_on_television" finished-at="2022-09-25T19:24:11 IST" duration-ms="1068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_on_television -->
+        <test-method signature="select_samsung_filter()[pri:5, instance:Selenuim_Assignment.LoginSetup@32ee6fee]" started-at="2022-09-25T19:24:11 IST" name="select_samsung_filter" finished-at="2022-09-25T19:24:13 IST" duration-ms="1943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_samsung_filter -->
+      </class> <!-- Selenuim_Assignment.LoginSetup -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
