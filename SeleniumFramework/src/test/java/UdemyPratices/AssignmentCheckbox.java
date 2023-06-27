@@ -13,7 +13,7 @@ public class AssignmentCheckbox {
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--remote-allow-origins=*");
 		ChromeDriver driver = new ChromeDriver(options);
-		driver.manage().window().maximize();
+	//	driver.manage().window().maximize();
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		System.out.println(driver.findElement(By.cssSelector("input[id*='checkBoxOption1']")).isSelected());
 		driver.findElement(By.cssSelector("input[id*='checkBoxOption1']")).click();
